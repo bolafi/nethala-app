@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+#score-table {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  tr {
+    height: 50px;
+    width: 100%;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .col-sm-3 {
+    padding: 0 3px;
+  }
+
+  .table th,
+  .table td {
+    padding: auto;
+  }
+}
